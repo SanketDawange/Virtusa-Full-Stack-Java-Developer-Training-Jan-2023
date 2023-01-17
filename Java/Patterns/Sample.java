@@ -1,9 +1,7 @@
-import java.util.Scanner; 
 class Sample{
     public static void main(String[] args) {
         System.out.println("Enter pecentage: ");
-        Scanner sc = new Scanner(System.in);
-        int percentage = sc.nextInt();
+        int percentage = 100;
         if(percentage > 66) {
             System.out.println("first class with extinction");
         }

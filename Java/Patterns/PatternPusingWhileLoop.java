@@ -10,7 +10,7 @@ public class PatternPusingWhileLoop {
             System.out.println();
             n ++;
         }
-        n = 5;
+        n = 4;
         while(n>=0) {
             int i = n;
             while(i>0) {
