@@ -25,17 +25,20 @@ public class ArrayOfObject {
         // Student st = new Student();
         // st.setInfo();
         // st.getInfo();
-    
-        Student StudentsArray[] = new Student[5];
+        
+        System.out.println("How many students you want to add?");
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        Student StudentsArray[] = new Student[size];
 
         System.out.println("Enter students information........");
-        for(int i=0; i<5; i++) {
+        for(int i=0; i<size; i++) {
             StudentsArray[i] = new Student();
             StudentsArray[i].setInfo();
         }
 
         System.out.println("Printing students information........");
-        for(int i=0; i<5; i++) {
+        for(int i=0; i<size; i++) {
             StudentsArray[i].getInfo();
         }
     }
