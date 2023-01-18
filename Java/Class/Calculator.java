@@ -63,5 +63,7 @@ public class Calculator {
             
 
         }while(c==1);
+        sc.close();
     }
+    
 }

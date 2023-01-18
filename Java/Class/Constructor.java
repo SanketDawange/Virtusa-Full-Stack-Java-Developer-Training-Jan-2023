@@ -1,11 +1,11 @@
 class A{
-    public int a;
+    public int a = 9;
     public A() {
-        System.out.println("This is default constructor");
+        System.out.println("This is default constructor and value of a is: "+a);
     }
     public A(int a) {
         this.a = a;
-        System.out.println("This is parameterized constructor "+ a);
+        System.out.println("This is parameterized constructor and value of a is: "+ a);
     }
 }
 
