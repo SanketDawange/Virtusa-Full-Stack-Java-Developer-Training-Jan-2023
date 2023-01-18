@@ -1,4 +1,4 @@
-public class Throws {
+public class ThrowBlock {
     public static void main(String[] args) {
         System.out.println("Throws an Exception in JAVA");
         int a = 6;
