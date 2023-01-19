@@ -1,7 +1,7 @@
 class Heart{
     public static void main(String[] args) {
-        int n = 50;
-        int m = 25;
+        int n = 12;
+        int m = 6;
         for(int i=1; i<=m; i++) {
             for(int j=m-i; j>=1; j--) {
                 System.out.print(" ");
